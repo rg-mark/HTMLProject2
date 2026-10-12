@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Menu</title>
+    <style>
+        :root {
+            --primary-color: #b91c1c;
+            --dark-color: #1f2937;
+            --light-bg: #fdf8f6;
+            --card-bg: #ffffff;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-bg);
+            color: var(--dark-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: var(--dark-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #fafaf9;
+            border: 1px solid var(--border-color);
+            padding: 1rem 1.25rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        li:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        strong {
+            font-size: 1.1rem;
+            color: var(--dark-color);
+            display: inline-block;
+            margin-bottom: 0.25rem;
+        }
+
+        p {
+            margin: 0;
+            color: #4b5563;
+        }
+
+        .reservation-link {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .reservation-link a {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.75rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+
+        .reservation-link a:hover {
+            background-color: #991b1b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Delicious Bites Menu</h1>
+
+    <h2>Appetizers</h2>
+    <ul>
+        <li>
+            <strong>Caprese Salad</strong>
+            <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.
+                Price: $8.99
+            </p>
+        </li>
+
+        <li>
+            <strong>Crispy Calamari</strong>
+            <p>Lightly battered and fried squid served with a zesty marinara dipping sauce.
+                Price: $7.99
+            </p>
+        </li>
+
+        <li>
+            <strong>Stuffed Mushrooms</strong>
+            <p>Button mushrooms filled with garlic herb cream cheese and baked until golden.
+                Price: $4.99
+            </p>
+        </li>
+    </ul>
+
+    <h2>Main Courses</h2>
+    <ul>
+        <li>
+            <strong>Grilled Salmon</strong>
+            <p>Salmon fillet grilled to perfection, served with lemon butter sauce.
+                Price: $14.99
+            </p>
+        </li>
+
+        <li>
+            <strong>Truffle Mushroom Risotto</strong>
+            <p>Arborio rice slow-cooked with wild mushrooms, garlic, parmesan, and a drizzle of truffle oil.
+                Price: $19.99
+            </p>
+        </li>
+
+        <li>
+            <strong>Vegetable Stir-Fry</strong>
+            <p>A medley of fresh vegetables sautéed in a savory sauce, served with steamed rice.
+                Price: $10.99
+            </p>
+        </li>
+    </ul>
+
+    <h2>Desserts</h2>
+    <ul>
+        <li>
+            <strong>Chocolate Fondue</strong>
+            <p>Assorted fruits and marshmallows served with rich chocolate fondue.
+                Price: $6.99
+            </p>
+        </li>
+
+        <li>
+            <strong>Cheesecake</strong>
+            <p>Creamy cheesecake with a graham cracker crust and a choice of strawberry or chocolate topping.
+                Price: $5.99
+            </p>
+        </li>
+
+        <li>
+            <strong>Tiramisu</strong>
+            <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.
+                Price: $6.49
+            </p>
+        </li>
+    </ul>
+
+    <p><a href="contact.html">Contact us for reservations</a></p>
+</body> 
+</html>
